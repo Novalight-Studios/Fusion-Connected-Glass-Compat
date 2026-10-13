@@ -1,47 +1,47 @@
 name: Create Draft Release
 
 permissions:
-  contents: write
+    contents: write
 
 on:
-  push:
-    tags:
-      - "v*"
+    push:
+        tags:
+            - "v*"
 
 jobs:
-  build-release:
-    runs-on: ubuntu-latest
+    build-release:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout sources
-        uses: actions/checkout@v4
+        steps:
+            - name: Checkout sources
+              uses: actions/checkout@v4
 
-      - name: Create zip archive
-        run: |
-          mkdir build
-          zip -r build/FCG-Compat.zip assets pack.mcmeta pack.png
+            - name: Create zip archive
+              run: |
+                  mkdir build
+                  zip -r build/FCG-Compat.zip assets pack.mcmeta pack.png
 
-      - name: Create draft release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref_name }}
-          release_name: Fusion Connected Glass Compat ${{ github.ref_name }}
-          draft: true
-          prerelease: false
-          body: |
-            -
+            - name: Create draft release
+              id: create_release
+              uses: actions/create-release@v1
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  tag_name: ${{ github.ref_name }}
+                  release_name: Fusion Connected Glass Compat ${{ github.ref_name }}
+                  draft: true
+                  prerelease: false
+                  body: |
+                      -
 
-            **Full Changelog**: https://github.com/Alfakynz/Fusion-Connected-Glass-Compat/compare/v1.x.x...v1.x.x
+                      **Full Changelog**: https://github.com/Novalight-Studios/Fusion-Connected-Glass-Compat/compare/v1.x.x...${{ github.ref_name }}
 
-      - name: Upload ZIP to the release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: build/FCG-Compat.zip
-          asset_name: FCG-Compat.zip
-          asset_content_type: application/zip
+            - name: Upload ZIP to the release
+              uses: actions/upload-release-asset@v1
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  upload_url: ${{ steps.create_release.outputs.upload_url }}
+                  asset_path: build/FCG-Compat.zip
+                  asset_name: FCG-Compat.zip
+                  asset_content_type: application/zip
