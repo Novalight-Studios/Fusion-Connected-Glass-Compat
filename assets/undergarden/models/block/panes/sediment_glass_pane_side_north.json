@@ -1,0 +1,55 @@
+{
+    "type": "fusion:connecting",
+    "parent": "undergarden:block/templates/template_glass_pane_side",
+    "render_type": "minecraft:translucent",
+    "connections": {
+        "type": "fusion:or",
+        "predicates": [
+            {
+                "type": "fusion:or",
+                "predicates": [
+                    {
+                        "type": "fusion:and",
+                        "predicates": [
+                            {
+                                "type": "fusion:match_state",
+                                "block": "undergarden:sediment_glass_pane",
+                                "properties": {
+                                    "north": ["true"]
+                                }
+                            },
+                            {
+                                "type": "fusion:is_direction",
+                                "directions": ["bottom", "top"]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "fusion:and",
+                        "predicates": [
+                            {
+                                "type": "fusion:is_same_block"
+                            },
+                            {
+                                "type": "fusion:is_direction",
+                                "directions": [
+                                    "bottom_left",
+                                    "bottom_right",
+                                    "left",
+                                    "right",
+                                    "top_left",
+                                    "top_right"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "loader": "fusion:model",
+    "textures": {
+        "edge": "undergarden:block/sediment_glass_edge",
+        "pane": "undergarden:block/sediment_glass"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "fusion:connecting",
+    "parent": "minecraft:block/cube_all",
+    "render_type": "minecraft:translucent",
+    "loader": "fusion:model",
+    "textures": {
+        "all": "undergarden:block/sediment_glass"
+    }
+}
