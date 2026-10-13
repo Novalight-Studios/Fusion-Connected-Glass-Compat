@@ -1,0 +1,18 @@
+{
+    "type": "fusion:connecting",
+    "parent": "unusualend:block/templates/template_glass_pane_noside",
+    "render_type": "minecraft:cutout",
+    "connections": {
+        "type": "fusion:or",
+        "predicates": [
+            {
+                "type": "fusion:is_same_block"
+            }
+        ]
+    },
+    "loader": "fusion:model",
+    "textures": {
+        "edge": "unusualend:block/chiseled_glass_edge",
+        "pane": "unusualend:block/chiseled_glass"
+    }
+}

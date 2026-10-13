@@ -1,0 +1,4 @@
+{
+    "pane_culling_fix": true,
+    "targets": ["unusualend:chiseled_glass_pane"]
+}

@@ -8,6 +8,7 @@ Fusion Connected Glass Compat (FCG Compat) adds compatibility between the Fusion
 - [Deeper and Darker](https://modrinth.com/project/fnAffV0n)
 - [ProtoManly's Weather](https://modrinth.com/project/TfCsmTLI)
 - [The Undergarden](https://modrinth.com/project/Ejfl5qDL)
+- [Unusual End](https://modrinth.com/project/WKsNOKFh)
 - [Wilder Wild](https://modrinth.com/project/AtHRJSUW)
 
 ## 📦 Installation

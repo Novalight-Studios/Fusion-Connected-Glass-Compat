@@ -1,0 +1,55 @@
+{
+    "type": "fusion:connecting",
+    "parent": "unusualend:block/templates/template_glass_pane_side_alt",
+    "render_type": "minecraft:cutout",
+    "connections": {
+        "type": "fusion:or",
+        "predicates": [
+            {
+                "type": "fusion:or",
+                "predicates": [
+                    {
+                        "type": "fusion:and",
+                        "predicates": [
+                            {
+                                "type": "fusion:match_state",
+                                "block": "unusualend:chiseled_glass_pane",
+                                "properties": {
+                                    "west": ["true"]
+                                }
+                            },
+                            {
+                                "type": "fusion:is_direction",
+                                "directions": ["bottom", "top"]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "fusion:and",
+                        "predicates": [
+                            {
+                                "type": "fusion:is_same_block"
+                            },
+                            {
+                                "type": "fusion:is_direction",
+                                "directions": [
+                                    "bottom_left",
+                                    "bottom_right",
+                                    "left",
+                                    "right",
+                                    "top_left",
+                                    "top_right"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "loader": "fusion:model",
+    "textures": {
+        "edge": "unusualend:block/chiseled_glass_edge",
+        "pane": "unusualend:block/chiseled_glass"
+    }
+}
