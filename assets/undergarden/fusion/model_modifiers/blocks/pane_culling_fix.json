@@ -1,4 +1,4 @@
 {
-    "pane_culling_fix": true,
-    "targets": ["undergarden:sediment_glass_pane"]
+  "pane_culling_fix": true,
+  "targets": ["undergarden:sediment_glass_pane"]
 }
