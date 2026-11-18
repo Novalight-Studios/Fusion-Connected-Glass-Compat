@@ -4,9 +4,10 @@ Fusion Connected Glass Compat (FCG Compat) adds compatibility between the Fusion
 
 ## ✨ Compatibility
 
-- [Aether](https://modrinth.com/project/YhmgMVyu)
 - [Deeper and Darker](https://modrinth.com/project/fnAffV0n)
 - [ProtoManly's Weather](https://modrinth.com/project/TfCsmTLI)
+- [The Aether](https://modrinth.com/project/YhmgMVyu)
+- [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
 - [The Undergarden](https://modrinth.com/project/Ejfl5qDL)
 - [Unusual End](https://modrinth.com/project/WKsNOKFh)
 - [Wilder Wild](https://modrinth.com/project/AtHRJSUW)
@@ -31,7 +32,6 @@ You also need the following mod and resource pack for it to work properly:
 - [Quark](https://modrinth.com/project/qnQsVE2z)
 - [Ramadan Delight](https://modrinth.com/project/XdtLqgmY)
 - [Regions Unexplored](https://modrinth.com/project/Tkikq67H)
-- [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
 
 ## 🙏 Credits
 

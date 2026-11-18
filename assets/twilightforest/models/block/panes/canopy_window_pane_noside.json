@@ -1,0 +1,18 @@
+{
+  "type": "fusion:connecting",
+  "parent": "twilightforest:block/templates/template_glass_pane_noside",
+  "render_type": "minecraft:translucent",
+  "connections": {
+    "type": "fusion:or",
+    "predicates": [
+      {
+        "type": "fusion:is_same_block"
+      }
+    ]
+  },
+  "loader": "fusion:model",
+  "textures": {
+    "edge": "twilightforest:block/canopy_window_edge",
+    "pane": "twilightforest:block/canopy_window"
+  }
+}

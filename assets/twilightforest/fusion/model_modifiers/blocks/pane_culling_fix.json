@@ -1,0 +1,4 @@
+{
+  "pane_culling_fix": true,
+  "targets": ["twilightforest:canopy_window_pane"]
+}
