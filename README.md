@@ -23,7 +23,15 @@ You also need the following mod and resource pack for it to work properly:
 
 ## 🚀 Planned Features
 
-Nothing for now, but feel free to suggest any feature you want!
+- [Chipped](https://modrinth.com/project/BAscRYKm)
+- [Dawn of Time](https://modrinth.com/project/RgWXq0La)
+- [Eternal Starlight](https://modrinth.com/project/XvcfUGfB)
+- [Luminous: Overworld](https://modrinth.com/project/HT2F6lNL)
+- [Naturalist](https://modrinth.com/project/F8BQNPWX)
+- [Quark](https://modrinth.com/project/qnQsVE2z)
+- [Ramadan Delight](https://modrinth.com/project/XdtLqgmY)
+- [Regions Unexplored](https://modrinth.com/project/Tkikq67H)
+- [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
 
 ## 🙏 Credits
 
