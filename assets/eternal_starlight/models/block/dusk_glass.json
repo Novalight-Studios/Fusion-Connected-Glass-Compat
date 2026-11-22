@@ -1,0 +1,9 @@
+{
+  "type": "fusion:connecting",
+  "parent": "eternal_starlight:block/tinted_cube_all",
+  "render_type": "minecraft:translucent",
+  "loader": "fusion:model",
+  "textures": {
+    "all": "eternal_starlight:block/dusk_glass"
+  }
+}

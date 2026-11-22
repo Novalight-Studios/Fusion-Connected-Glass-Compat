@@ -1,7 +1,7 @@
 {
   "type": "fusion:connecting",
   "parent": "minecraft:block/cube_all",
-  "render_type": "minecraft:translucent",
+  "render_type": "minecraft:cutout",
   "loader": "fusion:model",
   "textures": {
     "all": "twilightforest:block/canopy_window"

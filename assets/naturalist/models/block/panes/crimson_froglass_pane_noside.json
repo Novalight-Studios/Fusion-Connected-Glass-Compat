@@ -1,0 +1,18 @@
+{
+  "type": "fusion:connecting",
+  "parent": "naturalist:block/templates/template_glass_pane_noside",
+  "render_type": "minecraft:translucent",
+  "connections": {
+    "type": "fusion:or",
+    "predicates": [
+      {
+        "type": "fusion:is_same_block"
+      }
+    ]
+  },
+  "loader": "fusion:model",
+  "textures": {
+    "edge": "naturalist:block/crimson_froglass_edge",
+    "pane": "naturalist:block/crimson_froglass"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "loader": "fusion:model",
+  "type": "fusion:connecting",
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "luminousworld:block/decorativeglass_connected",
+    "particle": "luminousworld:block/decorativeglass"
+  },
+  "connections": [
+    {
+      "type": "is_same_state"
+    }
+  ],
+  "render_type": "translucent"
+}

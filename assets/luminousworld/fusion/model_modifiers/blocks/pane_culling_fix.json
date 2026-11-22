@@ -1,0 +1,4 @@
+{
+  "pane_culling_fix": true,
+  "targets": ["luminousworld:decorative_glass_pane"]
+}

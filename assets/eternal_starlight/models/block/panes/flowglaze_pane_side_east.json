@@ -1,0 +1,55 @@
+{
+  "type": "fusion:connecting",
+  "parent": "eternal_starlight:block/templates/template_glass_pane_side",
+  "render_type": "minecraft:translucent",
+  "connections": {
+    "type": "fusion:or",
+    "predicates": [
+      {
+        "type": "fusion:or",
+        "predicates": [
+          {
+            "type": "fusion:and",
+            "predicates": [
+              {
+                "type": "fusion:match_state",
+                "block": "eternal_starlight:flowglaze_pane",
+                "properties": {
+                  "east": ["true"]
+                }
+              },
+              {
+                "type": "fusion:is_direction",
+                "directions": ["bottom", "top"]
+              }
+            ]
+          },
+          {
+            "type": "fusion:and",
+            "predicates": [
+              {
+                "type": "fusion:is_same_block"
+              },
+              {
+                "type": "fusion:is_direction",
+                "directions": [
+                  "bottom_left",
+                  "bottom_right",
+                  "left",
+                  "right",
+                  "top_left",
+                  "top_right"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "loader": "fusion:model",
+  "textures": {
+    "edge": "eternal_starlight:block/flowglaze_edge",
+    "pane": "eternal_starlight:block/flowglaze"
+  }
+}

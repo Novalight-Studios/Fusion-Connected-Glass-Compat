@@ -1,0 +1,18 @@
+{
+  "type": "fusion:connecting",
+  "parent": "eternal_starlight:block/templates/template_glass_pane_noside",
+  "render_type": "minecraft:translucent",
+  "connections": {
+    "type": "fusion:or",
+    "predicates": [
+      {
+        "type": "fusion:is_same_block"
+      }
+    ]
+  },
+  "loader": "fusion:model",
+  "textures": {
+    "edge": "eternal_starlight:block/flowglaze_edge",
+    "pane": "eternal_starlight:block/flowglaze"
+  }
+}
