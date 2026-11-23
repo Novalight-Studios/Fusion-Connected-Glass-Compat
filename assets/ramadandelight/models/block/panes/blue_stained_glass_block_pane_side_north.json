@@ -1,0 +1,55 @@
+{
+  "type": "fusion:connecting",
+  "parent": "ramadandelight:block/templates/template_glass_pane_side",
+  "render_type": "minecraft:translucent",
+  "connections": {
+    "type": "fusion:or",
+    "predicates": [
+      {
+        "type": "fusion:or",
+        "predicates": [
+          {
+            "type": "fusion:and",
+            "predicates": [
+              {
+                "type": "fusion:match_state",
+                "block": "ramadandelight:blue_stained_glass_block_pane",
+                "properties": {
+                  "north": ["true"]
+                }
+              },
+              {
+                "type": "fusion:is_direction",
+                "directions": ["bottom", "top"]
+              }
+            ]
+          },
+          {
+            "type": "fusion:and",
+            "predicates": [
+              {
+                "type": "fusion:is_same_block"
+              },
+              {
+                "type": "fusion:is_direction",
+                "directions": [
+                  "bottom_left",
+                  "bottom_right",
+                  "left",
+                  "right",
+                  "top_left",
+                  "top_right"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "loader": "fusion:model",
+  "textures": {
+    "edge": "ramadandelight:block/blue_stained_glass_block_edge",
+    "pane": "ramadandelight:block/blue_stained_glass_block"
+  }
+}

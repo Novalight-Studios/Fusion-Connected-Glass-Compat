@@ -1,0 +1,9 @@
+{
+  "pane_culling_fix": true,
+  "targets": [
+    "ramadandelight:blue_stained_glass_block_pane",
+    "ramadandelight:green_stained_glass_block_pane",
+    "ramadandelight:orange_stained_glass_block_pane",
+    "ramadandelight:stained_glass_block_pane"
+  ]
+}

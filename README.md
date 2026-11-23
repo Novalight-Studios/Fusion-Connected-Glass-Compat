@@ -10,6 +10,7 @@ Fusion Connected Glass Compat (FCG Compat) adds compatibility between the Fusion
 - [Luminous: Overworld](https://modrinth.com/project/HT2F6lNL)
 - [Naturalist](https://modrinth.com/project/F8BQNPWX)
 - [ProtoManly's Weather](https://modrinth.com/project/TfCsmTLI)
+- [Ramadan Delight](https://modrinth.com/project/XdtLqgmY)
 - [Regions Unexplored](https://modrinth.com/project/Tkikq67H)
 - [The Aether](https://modrinth.com/project/YhmgMVyu)
 - [The Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
@@ -31,9 +32,9 @@ You also need the following mod and resource pack for it to work properly:
 
 - [Chipped](https://modrinth.com/project/BAscRYKm)
 - [Dawn of Time](https://modrinth.com/project/RgWXq0La) (3D models)
+- [Dusty Decoration](https://modrinth.com/project/KgFOuaiZ)
 - [Luminous: Overworld](https://modrinth.com/project/HT2F6lNL) (other decorative glasses?)
 - [Quark](https://modrinth.com/project/qnQsVE2z)
-- [Ramadan Delight](https://modrinth.com/project/XdtLqgmY)
 
 ## 🙏 Credits
 

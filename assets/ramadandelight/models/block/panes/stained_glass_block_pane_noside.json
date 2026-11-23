@@ -1,0 +1,18 @@
+{
+  "type": "fusion:connecting",
+  "parent": "ramadandelight:block/templates/template_glass_pane_noside",
+  "render_type": "minecraft:translucent",
+  "connections": {
+    "type": "fusion:or",
+    "predicates": [
+      {
+        "type": "fusion:is_same_block"
+      }
+    ]
+  },
+  "loader": "fusion:model",
+  "textures": {
+    "edge": "ramadandelight:block/stained_glass_block_edge",
+    "pane": "ramadandelight:block/stained_glass_block"
+  }
+}
